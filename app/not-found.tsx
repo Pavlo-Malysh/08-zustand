@@ -1,5 +1,28 @@
-import css from './page.module.css'
+import { Metadata } from 'next';
+import css from './page.module.css';
 
+
+export const metadata: Metadata = {
+    title: "404 - Page Not Found | NoteHub",
+    description: "The page you are looking for does not exist on NoteHub. Return to the homepage to continue exploring your notes.",
+    openGraph: {
+        title: '404 - Page Not Found | NoteHub',
+        description: 'The page you are looking for does not exist on NoteHub.',
+        url: '/404',
+        siteName: '404 - Page Not Found | NoteHub',
+        images: [
+            {
+                url: "https://img.freepik.com/free-vector/404-error-page-background_23-2148076383.jpg",
+                width: 1200,
+                height: 630,
+                alt: "Page NoteHub not-found",
+                type: 'website',
+            }
+        ]
+    }
+
+
+}
 
 const NotFound = () => {
 
