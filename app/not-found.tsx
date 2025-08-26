@@ -12,7 +12,7 @@ export const metadata: Metadata = {
         siteName: '404 - Page Not Found | NoteHub',
         images: [
             {
-                url: "https://img.freepik.com/free-vector/404-error-page-background_23-2148076383.jpg",
+                url: "https://ac.goit.global/fullstack/react/notehub-og-meta.jpg",
                 width: 1200,
                 height: 630,
                 alt: "Page NoteHub not-found",

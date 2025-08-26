@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'NoteHub - Your Personal Notes Organizer',
     description: 'NoteHub – a modern platform to create, organize, and manage your notes with ease.',
-    url: 'https://08-zustand-2id0t83qf-pavlos-projects-5ce3b785.vercel.app/',
+    url: 'https://notehub.com/home',
     siteName: 'NoteHub',
     images: [
       {
