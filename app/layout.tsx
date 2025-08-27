@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'NoteHub - Your Personal Notes Organizer',
     description: 'NoteHub – a modern platform to create, organize, and manage your notes with ease.',
-    url: 'https://notehub.com/home',
+    url: 'https://notehub.com/',
     siteName: 'NoteHub',
     images: [
       {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: "NoteHub logo",
-        type: 'website',
+
       }
     ]
   }

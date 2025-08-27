@@ -16,7 +16,7 @@ export const metadata: Metadata = {
                 width: 1200,
                 height: 630,
                 alt: "Page NoteHub not-found",
-                type: 'website',
+
             }
         ]
     }

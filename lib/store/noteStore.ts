@@ -15,7 +15,7 @@ type NoteDraft = {
 const initialDraft: NewNote = {
     title: '',
     content: '',
-    tag: '',
+    tag: 'Todo',
 };
 
 
@@ -28,6 +28,7 @@ export const useNoteDraft = create<NoteDraft>()(
         }
     }, {
         name: 'draft',
+        partialize: (state) => ({ draft: state.draft }),
     })
 )
 
